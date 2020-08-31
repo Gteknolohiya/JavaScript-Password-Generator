@@ -21,6 +21,7 @@ You need to generate a random uppercase, lowercase, numbers and symbols to creat
 - To convert string to number, add "+" before the variable(e.g, +lengthEl.value;).
 - To check a checkbox if the value is true or false, use .checked at the end of the DOM element.
 - To remove existing value, use .slice.(e.g, const finalPassword = generatedPassword.slice(0, length);).
+- to create a functionality that copy the generated pw to clipboard, textarea.value = password; , document.body.appendChild(textarea); , textarea.select(); ,   document.execCommand('copy'); , textarea.remove(); , alert('Password copied to clipboard!');.
  
 ## Contributing
 
@@ -36,7 +37,7 @@ There's no specific requirements.
 
 ### Installation
 
-Go to https://gteknolohiya.github.io/javascript-password-generator
+Go to https://gteknolohiya.github.io/Javascript-Password-Generator
 
 ### Configuration
 
