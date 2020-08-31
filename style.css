@@ -1,0 +1,56 @@
+html, body {
+	height: 100vh;
+}
+
+.section-main {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.card-panel {
+    width: 400px;
+}
+
+.result-container {
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+
+.result-container .btn {
+	width: 15%;
+}
+
+.result-container span {
+	text-align: center;
+	width: 85%;
+}
+
+.mt-1 {
+	margin-top: 1.5rem;
+}
+
+.mb-1 {
+	margin-bottom: 1.5rem;
+}
+
+#generate a {
+	width: 100%;
+}
+
+p {
+	letter-spacing: 1px;
+}
